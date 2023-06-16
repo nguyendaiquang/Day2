@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Thực Tập Buổi 2</title>
+</head>
+<body>
+    <div class="content">
+        <div class="grid">
+            <div class="body-full">
+                <div class="body-left">
+                    <div class="body-science">
+                        <div class="science-item">
+                            <div class="item-img" >
+                                <img class="banner" src="./images/overlay-bg.jpg" alt="">
+                                <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                            </div>
+                            <div class="title">
+                                <h3 class="title-2">Mentor Cường</h3>
+                                <h5 class="title-3">Mentor</h5>
+                            </div>
+                            <div class="item-origin">
+                                <a class="header_icon header_facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="header_icon header_linkedin">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a class="header_icon header_youtube">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a> 
+                            </div>
+                            <br/>
+                            <div class="item-origin_1">
+                                <a class="header_icon_1 ">
+                                    <i class="fa-solid fa-person header_icon"></i>
+                                </a> 
+                            </div>
+                            <div class="item-origin-2">
+                                <h5 class="title-4-1">02/02/2001</h5> <br/>
+                                <h5 class="title-4"><i class="fa-solid fa-location-arrow"></i> Tân Bình, Tp. Hồ Chí Minh</h5> <br/>
+                                <h5 class="title-4"><i class="fa-solid fa-envelope"></i> Daiquang@gmail.com</h5> <br/>
+                                <h5 class="title-4"><i class="fa-solid fa-phone"></i> 1234567890</h5> 
+                                <div class="title-5">
+                                    <h5 class="title-6"> Số dư hiện tại: &nbsp;</h5>
+                                    <h5 class="title-7"> 300,000 BS</h5>
+                                </div>
+                            </div>
+                            <div class="search-1">
+                                <button type="button" class="button-search-1">CHỈNH SỬA THÔNG TIN</button>
+                            </div>
+                            <div class="search-1">
+                                <button type="button" class="button-search-1">QUẢN LÝ VÍ TIỀN</button>
+                            </div>
+                            <div class="search-1">
+                                <button type="button" class="button-search-1">RÚT TIỀN</button>
+                            </div>
+                            <div class="search-1">
+                                <button type="button" class="button-search-1">DANH SÁCH KHÓA HỌC</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body-science">
+                        <div class="science-item">
+                            <div class="item-origin-3">
+                                <h5 class="title-8">Các hoạt động gần đây</h5>
+                                <h6 class="title-9">Đã đăng ký khóa học ReactJS Basic</h6>
+                                <h6 class="title-10">01/10/2023</h6>
+                                <hr width="50%">
+                                <h6 class="title-9">Đã nhận được 100 BS từ việc chia sẻ khóa học</h6>
+                                <h6 class="title-10">01/10/2023</h6>
+                                <hr width="50%"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body-right">
+                    <div class="accordion" id="accordionExample">
+                        <div id="heard" class="card">
+                          <div class="card-header" id="headingOne">
+                            <span class="arrange-label">Thông tin khóa học</span>
+                                <button  class="btn btn-link btn-block-1 text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                                    <i id="icons" class="fa-solid fa-chevron-down" ></i>
+                                </button>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="body-left-1">
+                                <div class="body-science-1">
+                                    <span class="arrange">Tên khóa học:</span>
+                                    <div class="input-group flex-nowrap">
+                                        <input id="course-name" type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping" name="course-name">
+                                    </div>
+
+                                    <div class="trinh-do">
+                                        <div class="trinh-do-1">
+                                            <span class="arrange-1">Trình độ:</span>
+                                        </div>
+                                        
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                            <label class="form-check-label" for="inlineRadio1">Beginner</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                            <label class="form-check-label" for="inlineRadio2">Intermediate</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                            <label class="form-check-label" for="inlineRadio3">Advanced</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                            <label class="form-check-label" for="inlineRadio3">Expert</label>
+                                        </div>
+                                    </div>
+                                    <div class="input-section">
+                                        <span class="arrange">Giá tiền:</span>
+                                        <input class="CurrencyInput"
+                                          type="text"
+                                          name="currency-field" id="currency-field" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" value="" data-type="currency" 
+                                          required/>
+                                        <span id="phone-error" class="hide required-color error-message">Là chữ số và đơn vị tiền tệ VND</span>
+                                        <span id="empty-phone" class="hide required-color error-message">
+                                          Không được bỏ trống giá tiền !
+                                        </span>
+                                    </div>
+
+                                    <div class="hinh-anh">
+                                        <div class="hinh-anh-1">
+                                            <img id="chosen-image" class="hinh-anh-form" src="/images/upload-img.jpg">
+                                        </div>
+                                        <div class="form-group-1">
+                                            <div class="title-hinh-anh">
+                                                <label class="hinhanh">Hình ảnh:</label>
+                                            </div>
+                                            <div>
+                                                <input type="file" accept="image/png, image/jpg" class="form-control-file" id="exampleFormControlFile1">
+                                            </div>
+                                            <button type="button" onclick="removeFun()" class="button-hinh-anh">Xóa ảnh</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="linh-vuc">
+                                        <span class="arrange">Lĩnh vực:</span>
+                                        <select class="form-control">
+                                            <option>Front End</option>
+                                            <option>Back End</option>
+                                            <option>Automation Tester</option>
+                                            <option>DaTa</option>
+                                            <option>Business Analyst</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="linh-vuc">
+                                        <span class="arrange">Hình thức khóa học:</span>
+                                        <select class="form-control">
+                                            <option>Online</option>
+                                            <option>Offline</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="link-meet">
+                                        <span for="google-link" class="arrange">Link Google Meet:</span>
+                                        <div class="input-group flex-nowrap">
+                                            <input type="url" id="google-link" name="google-link" required class="form-control" placeholder="https://meet.google.com/.." aria-label="Username" aria-describedby="addon-wrapping">
+                                        </div>
+                                        <div class="error">
+                                            <span id="google-link-error"></span>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="gia-tien">
+                                        <span class="arrange">Tags:</span>
+                                        <div class="tag-container">
+                                            <div class="tag-list">
+                                            </div>
+                                            <input type="text" class="tag-input" placeholder="Add tags" lis="data-tag">
+                                            <datalist id="data-tag">
+                                                <option value="Front-End"></option>
+                                                <option value="Back-End"></option>
+                                                <option value="FullStack"></option>
+                                            </datalist>
+                                        </div>  
+                                    </div> -->
+                                    <label for="exampleFormControlInput1">Tags:</label>
+                                        <div class="tag-container">                                  
+                                        <div class="tag-list">                                 
+                                        </div>
+                                        <input type="text" placeholder="Add tags" class="tag-input" list="data-tag">
+                                        <datalist id="data-tag">
+                                            <option value="Frontend">
+                                            <option value="Backend">
+                                            <option value="Fullstack">
+                                            <option value="Automation Tester"></option>
+                                            <option value="DaTa"></option>
+                                            <option value="Business Analyst"></option>
+                                        </datalist>
+                                        </div>
+                                    <div class="min-max">
+                                        <form>
+                                            <span class="arrange">Số lượng học viên:</span>
+                                            <div class="form-row">
+                                                <div class="col">
+                                                    <span class="arrange-1">Min:</span>
+                                                    <input type="number" class="form-control-1" placeholder=""  id="minInput" name="minInput" min="0" max="100" oninput="checkMinMax()" required/>
+                                                </div>
+                                                <div class="col col1">
+                                                    <span class="arrange-1">Max:</span>
+                                                    <input type="number" class="form-control-1" placeholder="" id="maxInput" name="maxInput" min="0" max="100" oninput="checkMinMax()" required/>
+                                                    <span id="error" ></span>
+                                                </div>
+                                            </div>
+                                            
+                                        </form>
+                                    </div>
+
+                                    <div class="mo-ta">
+                                        <span class="arrange">Mô tả khóa học:</span>
+                                        <div class="vien">
+                                            <div class="input-group-1">
+                                                <textarea id="my-text" rows="5" class="form-control" aria-label="With textarea"  maxlength="200" placeholder=""></textarea>
+                                            </div>
+                                        </div> 
+                                        <p id="result"></p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div><br>
+                      <div  id="heard" class="card">
+                        <div id="heard" class="card">
+                            <div class="card-header" id="headingThree">
+                                <span class="arrange-label">Lộ Trình Học</span>
+                                    <button  class="btn btn-link btn-block-1 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" >
+                                        <i id="icons2" class="fa-solid fa-chevron-down" ></i>
+                                    </button>
+                              </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <h3>khóa học:&nbsp; <span id="course-name-span"></span></h3>
+                                <textarea id="editor1" cols="90" name="description" rows="10">
+                                </textarea>
+                                <div class="nutbam">
+                                    <button type="button" class="button-search-7">Lưu</button>
+                                </div>
+                                </div>
+                            </div>
+                         </div>
+                        </div><br>
+                        <div id="heard" class="card">
+                            <div class="card-header" id="headingTwo">
+                                <span class="arrange-label">Thời gian lớp học</span>
+                                    <button  class="btn btn-link btn-block-1 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
+                                        <i id="icons1" class="fa-solid fa-chevron-down" ></i>
+                                    </button>
+                              </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <div class="card-body1" >
+                                <form id="my-form">
+                                <div class="trai-phai">
+                                    <div class="trai">
+                                        <div class="ngaygio">
+                                            <div class="gio">
+                                                <div class="dongho">
+                                                    <div class="giobatdau">
+                                                        <span class="dongho"> Giờ bắt đầu</span>
+                                                        <input type="time" id="start-time" name="time" min="07:00" max="19:00">
+                                                    </div>
+                                                    <div class="gioketthuc">
+                                                        <span class="dongho"> Giờ Kết Thúc</span>
+                                                        <input type="time" id="end-time" name="time" min="07:00" max="19:00">
+                                                    </div>
+                                                </div>
+                                                <div class="error">
+                                                    <span id="error-messages"></span>
+                                                </div>
+                                                <div class="slot-ngay">
+                                                    <div class="soluong">
+                                                        <div class="chonsoluong">
+                                                            <label id="slot" class="birthdate1" for="quantity">Slot</label>
+                                                            <input type="number1" id="quantity" name="quantity" min="1" max="15" step="1">
+                                                        </div>
+                                                        <div class="ngaythangnam">
+                                                            <label class="birthdate1" for="birthdate">Ngày dự kiến mở lớp</label>
+                                                            <input type="date" id="date" name="birthdate">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="error">
+                                                    <span id="error_message"></span>
+                                                </div>
+                                            </div><br>
+                                        </div>
+                                    </div>
+                                        <div class="phai">
+                                            <div class="ngaythang">
+                                                <div id="weekdays"class="ngay">
+                                                    <label>T2<input type="checkbox" name="ngay" value="T2"></label>
+                                                    <label>T3<input type="checkbox" name="ngay" value="T3"></label>
+                                                    <label>T4<input type="checkbox" name="ngay" value="T4"></label>
+                                                    <label>T5<input type="checkbox" name="ngay" value="T5"></label>
+                                                    <label>T6<input type="checkbox" name="ngay" value="T6"></label>
+                                                    <label>T7<input type="checkbox" name="ngay" value="T7"></label>
+                                                    <label>CN<input type="checkbox" name="ngay" value="CN"></label>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="button-search-2">Tạo Lớp Học</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </form>
+                                <div class="table">
+                                    <table id="my-table">
+                                    <thead>
+                                        <tr>
+                                        <th>Ngày dự kiến</th>
+                                        <th>Giờ bắt đầu</th>
+                                        <th>Giờ kết thúc</th>
+                                        <th>Slot</th> 
+                                        <th>Thứ</th>                                                                        
+                                        <th>Hành động</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <td>                                     
+                                        </td>
+                                    </tbody>
+                                    </table>
+                                    <div>
+                                    </div>
+                                    <!-- <button type="submit" class="button-search-2">TẠO KHÓA HỌC</button> -->
+                                    <!-- <div class="nut">
+                                        <button type="button" class="button-search-5">Xóa</button>
+                                        <button type="button" class="button-search-6">Sửa</button>
+                                    </div> -->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <button type="button" class="button-search-8">Tạo Khóa Học</button>
+                </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( 'editor1' );
+    </script>
+</body>
+</html>
